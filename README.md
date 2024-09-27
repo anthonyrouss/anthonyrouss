@@ -1,16 +1,23 @@
-## Hi there 👋
+```java
+public class Profile {
+    private final String firstName = "Antonis";
+    private final String lastName = "Roussos";
+    private String email = "aroussos.dev@proton.me";
+    private String linkedIn = "https://www.linkedin.com/in/aroussos";
+    private String location = "Athens, Greece";
 
-<!--
-**anthonyrouss/anthonyrouss** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    private String[] techStack = {
+            "Java", "Quarkus", "Spring Boot", 
+            "Hibernate", "PostgreSQL", "Docker"
+    };
 
-Here are some ideas to get you started:
+    private String[] currentlyLearning = {
+            "Microservice Architecture", 
+            "Quarkus"
+    };
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    private String[] hobbies = {
+            "Board games", "Chess"
+    };
+}
+```
